@@ -3,11 +3,11 @@ import mysql.connector
 def connect_to_database():
     # Replace with your database connection details
     return mysql.connector.connect(
-        host="82.165.141.198",#"217.160.241.60",
-        user="crawler",
-        password="cRYEQwVxEApPqUPXyQLY",
-        database="individual_crawl",
-        port = 3306
+        host="YOUR_HOST",
+        user="YOUR_USERNAME",
+        password="YOUR_PASSWORD",
+        database="YOUR_DATABASE",
+        port=3306
     )
 
 
@@ -32,4 +32,5 @@ def personal_data(prof_id):
     conn.close()
 
     return first_name,full_name
+
 
