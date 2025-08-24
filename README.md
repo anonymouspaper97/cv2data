@@ -24,7 +24,7 @@ cd cv2data
 pip install -r requirements.txt
 ```
 ## Example output (simplified):
-
+```json
 {
   "name": "Jane Doe",
   "positions": [
@@ -33,5 +33,5 @@ pip install -r requirements.txt
   "awards": ["Best Dissertation Award 2019"],
   "education": ["PhD in Data Science, University Y, 2019"]
 }
-
+```
 
