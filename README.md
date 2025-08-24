@@ -19,8 +19,8 @@ This repository contains code for extracting structured data from academic and p
 Clone the repository and install the dependencies:  
 
 ```bash
-git clone https://github.com/your-username/structured-cv-extraction.git
-cd structured-cv-extraction
+git clone https://github.com/anonymouspaper97/cv2data.git
+cd cv2data
 pip install -r requirements.txt
 ```
 ## Example output (simplified):
