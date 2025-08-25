@@ -5,10 +5,10 @@ import pandas as pd
 from langchain.llms import OpenAI
 import os 
 
-from dbtools import connect_to_database
+from utils.dbtools import connect_to_database
 import json 
 
-import pdf_scraper 
+import utils.pdf_scraper 
 import time 
 
 prof_id = 1 
@@ -63,6 +63,7 @@ for j in range(1):
       with open('output_4.json', 'a') as file:
           json.dump(res.dic, file)
           file.write('\n')  # Add a newline to separate JSON objects
+
 
 
 
