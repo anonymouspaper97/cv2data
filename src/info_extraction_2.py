@@ -10,7 +10,7 @@ import gender_guesser.detector as gender
 from deep_translator import GoogleTranslator
 from langchain.callbacks import get_openai_callback
 from langchain.schema import Document
-from examples import html_example,pdf_example,html_example_text
+from utils.examples import html_example,pdf_example,html_example_text
 from langchain.docstore.document import Document
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.pydantic_v1 import BaseModel, Field  
