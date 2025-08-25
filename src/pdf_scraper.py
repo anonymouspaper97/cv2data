@@ -3,7 +3,7 @@ import pdfplumber
 import io
 import info_extraction_2
 import dbtools
-from dbtools import connect_to_database
+from utils.dbtools import connect_to_database
 import asyncio
 from pypdf import PdfReader
 from tika import parser
@@ -96,6 +96,7 @@ def scraper(prof_id, llm, embedding,key, ALL = False):
     
 
     return ext 
+
 
 
 
