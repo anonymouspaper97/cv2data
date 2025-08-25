@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 from typing import List, Dict, Any
 import os 
-from dbtools import connect_to_database
+from utils.dbtools import connect_to_database
 import pandas as pd 
 import time 
 from langchain_core.prompts import ChatPromptTemplate
@@ -143,4 +143,5 @@ def main():
     conn.close()
 
 if __name__ == "__main__":
+
     main()
