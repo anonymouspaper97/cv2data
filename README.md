@@ -14,15 +14,16 @@ This repository contains code for extracting structured data from academic and p
   - Education history  
 - Output in standardized JSON format.  
 - Modular pipeline for easy extension and reproducibility.  
+<!--
+## Installation  
+Clone the repository and install the dependencies:  
 
-%## Installation  
-%Clone the repository and install the dependencies:  
-
-%```bash
-%git clone https://github.com/anonymouspaper97/cv2data.git
-%cd cv2data
-%pip install -r requirements.txt
-%```
+```bash
+git clone https://github.com/anonymouspaper97/cv2data.git
+cd cv2data
+pip install -r requirements.txt
+```
+-->
 ## Example output (simplified):
 ```json
 {
