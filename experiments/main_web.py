@@ -17,7 +17,7 @@ os.environ["OPENAI_API_KEY"] = key
 
 
 llm = ChatOpenAI(
-     model_name="gpt-4-turbo-preview",
+     model_name="gpt-4o",
     temperature=0,
 )
 
@@ -65,6 +65,7 @@ for j in range(1):
       with open('output_html.json', 'a') as file:
           json.dump(res.dic, file)
           file.write('\n')  # Add a newline to separate JSON objects
+
 
 
 
