@@ -1,8 +1,8 @@
 import mysql.connector
 import io
 import info_extraction_2
-import dbtools
-from dbtools import connect_to_database
+import utils.dbtools
+from utils.dbtools import connect_to_database
 import asyncio
 
 
@@ -72,6 +72,7 @@ def scraper(prof_id, llm, embedding,key, ALL = False,verbose = False):
     
 
     return ext 
+
 
 
 
