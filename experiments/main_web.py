@@ -5,10 +5,10 @@ import pandas as pd
 from langchain.llms import OpenAI
 import os 
 
-from dbtools import connect_to_database
+from utils.dbtools import connect_to_database
 import json 
 
-import web_scraper 
+import utils.web_scraper 
 import time 
 
 
@@ -65,6 +65,7 @@ for j in range(1):
       with open('output_html.json', 'a') as file:
           json.dump(res.dic, file)
           file.write('\n')  # Add a newline to separate JSON objects
+
 
 
 
